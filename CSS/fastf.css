@@ -866,7 +866,7 @@ li.active{
 /* Start Buy */
 
 .buy {
-    padding: 100px 0;
+    padding: 100px 20px;
 } 
 .buy form{
     display: flex;
@@ -874,14 +874,12 @@ li.active{
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 50px;
-    padding: 20px;
 } 
 .buy form .info{
     display: flex;
     flex-direction: column;
     gap: 33px;
     min-height: 400.14px;
-    padding: 20px;
 }
 .buy form .info input{
     width: 365px;
