@@ -302,29 +302,7 @@ header.shadow {
 .icon.open{
     color: var(--main-color);
 }
-.favorite-list {
-    position: absolute;
-    top: 110%;
-    right: -450px;
-    width: 350px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    transition: var(--transition-duration) ease;
-    box-shadow: 0.5px 0.5px 10px 5px rgb(0 0 0 / 28%);
-}
-.favorite-list.open {
-    right: 30px;
-}
-@media (max-width:767px) {
-    .favorite-list {
-        right: -100%;
-        width: 100%;
-    }
-    .favorite-list.open {
-        right: 0;
-    }
-}
+
 /* Start Landing */
 .landing {
     height: 100vh;
@@ -866,8 +844,6 @@ li.active{
     position: relative;
     top: -200px;
 }
-/* .customers .container .customer .rate i{
-} */
 .customers .container .customer .customer-info{
     padding: 5px;
     text-align: center;
@@ -925,6 +901,7 @@ li.active{
     font-size: 25px;
     font-weight: 700;
     letter-spacing: 1px;
+    margin-left:10px;
 } 
 
 .buy form .order .types{
